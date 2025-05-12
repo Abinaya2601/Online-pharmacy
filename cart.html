@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Pharmacy - Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Shopping Cart</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="cart">
+        <h2>Your Cart</h2>
+        <div class="cart-item">
+            <p><strong>Paracetamol</strong> - ₹50</p>
+        </div>
+        <div class="cart-item">
+            <p><strong>Cough Syrup</strong> - ₹120</p>
+        </div>
+        <p><strong>Total:</strong> ₹170</p>
+    </section>
+    
+    <section class="checkout">
+        <h2>Checkout</h2>
+        <form action="#" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="3" required></textarea>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <button type="submit">Order Now</button>
+        </form>
+    </section>
+<!-- 
+    <footer>
+        <p>&copy; 2025 Online Pharmacy. All rights reserved.</p>
+    </footer> -->
+</body>
+</html>
